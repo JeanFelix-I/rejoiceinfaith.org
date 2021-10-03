@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="#" target="_blank">
+                <img src="photos/logo.png" style="width:42px;height:42px;" alt="Rejoice logo">
+            </a>
+        </div>
+    <div>
+        <div>
+            <nav>
+                <ul>
+                    <li title="This is Home"><a href="#">AHABANZA</a></li>
+                    <li><a href="#">ABO TURI BO</a></li>
+                    <li><a href="#">UMVA RADIO</a></li>
+                    <li><a href="#">IBIBWIRIZWA</a></li>
+                    <li><a href="#">INYANDIKO</a></li>
+                    <li><a href="#">GUFASHA</a></li>
+                    <li><a href="#">TWANDIKIRE</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    </header>
+    <form method="post">
+        <fieldset>
+        <legend>Comments</legend>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="fname" value="Doe"><br><br>
+
+        <p>Choose your sex:</p>
+
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="sex" value="Male"><br>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="sex" value="Female"><br>
+        
+        <label for="language">Choose language:</label>
+        <select id="language" name="language">
+            <option value="kiny">Kinyarwanda</option>
+            <option value="eng" selected>English</option>
+            <option value="fra">France</option>
+        </select><br>
+        <h1>Your Message:</h1>
+        <textarea name="message" style="width:200px; height:300px;"></textarea><br>
+
+        <input type="submit">
+    </fieldset>
+
+
+    </form>
+</body>
+</html>
